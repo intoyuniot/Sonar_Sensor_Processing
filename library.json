@@ -1,0 +1,28 @@
+{
+    "name": "Sonar_Sensor_Processing",
+    "version": "1.0.0",
+    "keywords": "sonar",
+    "description": "sonar sensor process",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/intoyuniot/Sonar_Sensor_Processing.git"
+    },
+    "authors": {
+        "name": "robin",
+        "email": "robin@molmc.com"
+    },
+    "dependencies":
+    [
+        {
+            "name": "HC_SR04",
+            "frameworks": "arduino"
+        },
+        {
+            "name": "MeanFilter",
+            "frameworks": "arduino"
+        }
+    ],
+    "frameworks": "arduino",
+    "platforms": "*"
+}
+
